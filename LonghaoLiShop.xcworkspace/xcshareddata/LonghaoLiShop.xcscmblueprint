@@ -1,0 +1,24 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "fd9116dd-c89a-6d43-b13c-5a1ab75ad510++2668" : {
+      "DVTSourceControlWorkingCopyRepositoryPrimaryBranchLocationKey" : "lhl\/trunk\/code\/ios\/"
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "fd9116dd-c89a-6d43-b13c-5a1ab75ad510++2668" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "02D5FE47-B5BE-487D-BC0B-EC63510A564B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "fd9116dd-c89a-6d43-b13c-5a1ab75ad510++2668" : "..\/.."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "LonghaoLiShop",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "LonghaoLiShop.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/42.159.109.135:8068\/svn\/yywl",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "fd9116dd-c89a-6d43-b13c-5a1ab75ad510++2668"
+    }
+  ]
+}

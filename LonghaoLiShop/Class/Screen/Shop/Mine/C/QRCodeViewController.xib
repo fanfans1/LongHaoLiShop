@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="QRCodeViewController">
+            <connections>
+                <outlet property="QRCode" destination="fpo-G8-d4E" id="KkO-va-5Ft"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="我的二维码" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2qO-yo-JDT">
+                    <rect key="frame" x="50" y="567" width="275" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="tdG-j0-X9k"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="84M-A7-Qgv">
+                    <rect key="frame" x="50" y="100" width="275" height="275"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fpo-G8-d4E">
+                            <rect key="frame" x="30" y="30" width="215" height="215"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="fpo-G8-d4E" firstAttribute="leading" secondItem="84M-A7-Qgv" secondAttribute="leading" constant="30" id="LZ7-Ah-F2C"/>
+                        <constraint firstAttribute="bottom" secondItem="fpo-G8-d4E" secondAttribute="bottom" constant="30" id="gnl-Ay-LAn"/>
+                        <constraint firstAttribute="trailing" secondItem="fpo-G8-d4E" secondAttribute="trailing" constant="30" id="oaZ-ya-wqx"/>
+                        <constraint firstAttribute="width" secondItem="84M-A7-Qgv" secondAttribute="height" multiplier="1:1" id="uB2-CQ-Mdi"/>
+                        <constraint firstItem="fpo-G8-d4E" firstAttribute="top" secondItem="84M-A7-Qgv" secondAttribute="top" constant="30" id="zg6-BZ-6nz"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="2qO-yo-JDT" secondAttribute="bottom" constant="50" id="8t2-xi-OxS"/>
+                <constraint firstAttribute="trailing" secondItem="2qO-yo-JDT" secondAttribute="trailing" constant="50" id="RgW-kd-IB5"/>
+                <constraint firstItem="84M-A7-Qgv" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="100" id="Uos-we-V5N"/>
+                <constraint firstItem="84M-A7-Qgv" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="50" id="aTq-lB-j8j"/>
+                <constraint firstItem="2qO-yo-JDT" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="50" id="d0U-k5-TXB"/>
+                <constraint firstAttribute="trailing" secondItem="84M-A7-Qgv" secondAttribute="trailing" constant="50" id="muy-88-z8r"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
